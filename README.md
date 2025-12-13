@@ -4,9 +4,7 @@
 
 Built with **Next.js 14**, **Tailwind CSS**, and **OpenAI/Llama**, this application intelligently parses your natural language prompts to search Google Maps and export actionable data directly to **Google Sheets**.
 
-![LeadFinder AI Screenshot](https://via.placeholder.com/800x450?text=LeadFinder+AI+Dashboard)
-*(Replace with actual screenshot link after deployment)*
-
+![LeadFinder AI Screenshot](public/readme.png)
 ---
 
 ## 🌟 Key Features
