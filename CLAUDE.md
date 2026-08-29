@@ -2,6 +2,29 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Idioma
+
+Responde en español.
+
+## Gestión de contexto
+
+Mantén el uso del contexto entre el 40% y el 60%. Al superarlo, avisa y propón
+compactar antes de continuar.
+
+Antes de una tarea larga o compleja, escribe el estado en un archivo de trabajo
+(objetivo, enfoque, pasos hechos, fallo actual) para poder retomarla en una
+sesión nueva sin arrastrar el historial entero.
+
+Usa subagentes para buscar y localizar código (Glob/Grep/Read). Devuelve solo el
+resumen al hilo principal, no el volcado de las búsquedas.
+
+No vuelques logs de test/build ni JSON grandes completos en el contexto: extrae
+la parte relevante y descarta el resto.
+
+Para bugs pequeños y cambios de una línea: ve directo, sin fase de investigación.
+Para cambios que tocan varios archivos: investiga, propón un plan corto, y espera
+aprobación antes de implementar.
+
 ## Commands
 
 - `npm run dev` — start the Next.js dev server (localhost:3000)
